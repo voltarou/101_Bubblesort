@@ -54,10 +54,17 @@ void display()
     for (int j = 0; j < n; j++) {
         cout << a[j] << endl;
     }
-    cout << "Jumlah pass = " n - 1 << endl;
+    cout << "Jumlah pass = " << n - 1 << endl;
     cout << endl;
 }
 
+int main() {
 
+    input();
+    bubbleSortArray();
+    display();
+    system("pause");
+
+    return 0;
 
 }
